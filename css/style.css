@@ -1,85 +1,61 @@
+/* BASIC STYLES*/
+
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/opensans.woff2");
-    font-weight: normal;
+    font-family: 'New York Small Black';
     font-style: normal;
+    font-weight: 500;
+    src: local('New York Small Black'), url('/fonts/New York/NewYorkSmallBlack.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-Bold.woff");
-
-    font-weight: bold;
+    font-family: 'New York Extra Large Regular';
     font-style: normal;
+    font-weight: 700;
+    src: local('New York Extra Large Regular'), url('/fonts/New York/NewYorkExtraLargeRegular.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-BoldItalic.woff");
-
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-ExtraBold.woff");
-
-    font-weight: 800;
+    font-family: 'New York Extra Large Black';
     font-style: normal;
+    font-weight: 700;
+    src: local('New York Extra Large Black'), url('/fonts/New York/NewYorkExtraLargeBlack.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-ExtraBoldItalic.woff");
-
-    font-weight: 800;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-Italic.woff");
-
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-Light.woff");
-
-    font-weight: 300;
+    font-family: 'New York Small Regular';
     font-style: normal;
+    font-weight: 400;
+    src: local('New York Small Regular'), url('/fonts/New York/NewYorkSmallRegular.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-SemiBold.woff");
-
-    font-weight: 600;
+    font-family: 'New York Medium Medium';
     font-style: normal;
+    font-weight: 400;
+    src: local('New York Medium Medium'), url('/fonts/New York/NewYorkMediumMedium.woff') format('woff');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/open_sans/OpenSans-SemiBoldItalic.woff");
-
-    font-weight: 600;
-    font-style: italic;
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: local('SF Pro Display Regular'), url('/fonts/SF Pro Display/SFProDisplay-Regular.woff') format('woff');
 }
 
 html, body, div, form, fieldset, legend, label, ul
 {
     max-width: 1440px;
+    min-width: 320px;
     width: 100%;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'New York Small Regular', sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.8;
     margin: 0;
     padding: 0;
 }
+
+h1,h2,h3,h4,h5,h6{ margin: 0; padding: 0}
 
 table
 {
@@ -98,3 +74,138 @@ li { list-style: none; }
 img { border: 0; display: block; width: 100%; height: 100%;}
 
 a { text-decoration: none; }
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+/* STYLES INDEX*/
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    border-bottom: 2px solid rgb(229, 229, 229);
+    padding: 30px 50px;
+}
+
+.logo{
+    font-family: 'New York Extra Large Regular', sans-serif;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.logo:hover,
+.logo:focus{
+    outline: none;
+    border-bottom: 4px solid rgb(0, 0, 0);;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list_item a{
+    font-family: 'New York Small Regular', sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+.nav_list_item a:hover,
+.nav_list_item a:focus{
+    outline: none;
+    border-bottom: 4px solid rgb(0, 0, 0);;
+}
+
+.main_wrapper{ margin-top: 50px; }
+
+.sub_title{
+    font-family: 'New York Extra Large Regular', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.about_project{ display: block; width:100%; }
+
+.about_project_content{ line-height: 2; margin: 0 50px 0 50px; }
+
+.popular_article_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 360px));
+    grid-column-gap: 30px;
+    grid-row-gap: 70px;
+    grid-auto-rows: minmax(160px, auto);
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.popular_article h3 { text-align: center; margin-bottom: 20px; letter-spacing: 1px; }
+
+.popular_article h3 a{
+    font-family: 'SF Pro',sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.popular_article h3 a:hover,
+.popular_article h3 a:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+
+.footer{
+    display: grid;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+.logo_footer{
+    color: rgb(255, 255, 255);
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.social_icon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.social_icon a{
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 2px;
+}
+
+.social_icon a:hover,
+.social_icon a:focus{
+    outline: none;
+    border-bottom: none;
+}
+
+.logo_footer:hover,
+.logo_footer:focus{
+    outline: none;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
