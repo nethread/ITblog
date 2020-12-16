@@ -15,9 +15,9 @@
         </div>
         <!-- logo_wrapper -->
                 <ul class="nav_list">
-                    <li class="nav_list_item"><a href="#">HTML & CSS</a></li>
-                    <li class="nav_list_item"><a href="#">JavaScript</a></li>
-                    <li class="nav_list_item"><a href="#">PHP</a></li>
+                    <li class="active_nav_list_item">HTML & CSS</li>
+                    <li class="nav_list_item"><a href="/category.php">JavaScript</a></li>
+                    <li class="nav_list_item"><a href="/category.php">PHP</a></li>
                     <li class="nav_list_item"><a href="#">О проекте</a></li>
                     <li class="nav_list_item"><a href="#">Вход</a></li>
                 </ul>
@@ -43,15 +43,15 @@
         <h2 class="sub_title" >Популярные статьи</h2>
         <div class="popular_article_wrapper">
             <article class="popular_article">
-                <h3><a href="#">Название стать</a></h3>
+                <h3><a href="#">В лесу родилась елочка</a></h3>
                 <img src="/images/popular_article.jpg" alt="" width="304" height="176">
             </article>
             <article class="popular_article">
-                <h3><a href="#">Название стать</a></h3>
+                <h3><a href="#">CSS Grid помогает жить в 2020</a></h3>
                 <img src="/images/popular_article.jpg" alt="" width="304" height="176">
             </article>
             <article class="popular_article">
-                <h3><a href="#">Название стать</a></h3>
+                <h3><a href="#">Основы ООП в PHP часть 1</a></h3>
                 <img src="/images/popular_article.jpg" alt="" width="304" height="176">
             </article>
             <article class="popular_article">
