@@ -75,12 +75,12 @@ img { border: 0; display:block; width: 100%; height: auto;}
 
 a { text-decoration: none; }
 
-input{ border: 2px solid rgb(229, 229, 229); padding: 10px 0 10px 5px; }
+input{ border: 2px solid rgb(124, 134, 134); padding: 10px 0 10px 5px; }
 
 input:focus,
 input:hover{ border: 2px solid rgb(70, 179, 251); outline: none; }
 
-textarea{ border: 2px solid rgb(229, 229, 229); padding: 10px 0 10px 5px; font-size: 16px; }
+textarea{ border: 2px solid rgb(124, 134, 134); padding: 10px 0 10px 5px; font-size: 16px; }
 
 textarea:focus,
 textarea:hover{ border: 2px solid rgb(70, 179, 251); outline: none; }
@@ -335,3 +335,19 @@ button:hover{
     grid-column-gap: 30px;
 }
 
+/* PAGE ABOUT PROJECT */
+
+.write_form {
+    display: grid;
+    grid-template-columns: 40%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.obligatory_field { color: red; }
+
+.write_form textarea{ resize: none; margin-bottom: 20px; }
+
+.btn{
+    width: 200px;
+}
