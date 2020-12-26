@@ -335,9 +335,9 @@ button:hover{
     grid-column-gap: 30px;
 }
 
-/* PAGE ABOUT PROJECT */
+/* PAGE ABOUT PROJECT  AND PAGE SING IN*/
 
-.write_form {
+.write_form, .sing_in_form{
     display: grid;
     grid-template-columns: 40%;
     justify-content: center;
@@ -346,8 +346,6 @@ button:hover{
 
 .obligatory_field { color: red; }
 
-.write_form textarea{ resize: none; margin-bottom: 20px; }
+.write_form textarea, .sing_in_form textarea{ resize: none; margin-bottom: 20px; }
 
-.btn{
-    width: 200px;
-}
+.btn{ width: 200px; }
