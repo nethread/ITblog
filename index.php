@@ -27,7 +27,7 @@
     <section class="slider">
         <h2 class="visually-hidden sub_title">Slider</h2>
         <ul class="slider_list">
-            <li class="slider_item"><img src="/images/arch_linux.png" alt="" width="1440" height="900"></li>
+            <li class="slider_item"><img src="/images/arch_linux.png" alt=""></li>
         </ul>
     </section>
     <!-- slider -->
@@ -44,23 +44,23 @@
         <div class="popular_article_wrapper">
             <article class="popular_article">
                 <h3><a href="#">В лесу родилась елочка</a></h3>
-                <img src="/images/popular_article.jpg" alt="" width="304" height="176">
+                <img src="/images/popular_article.png" alt="">
             </article>
             <article class="popular_article">
                 <h3><a href="#">CSS Grid помогает жить в 2020</a></h3>
-                <img src="/images/popular_article.jpg" alt="" width="304" height="176">
+                <img src="/images/popular_article.png" alt="">
             </article>
             <article class="popular_article">
                 <h3><a href="#">Основы ООП в PHP часть 1</a></h3>
-                <img src="/images/popular_article.jpg" alt="" width="304" height="176">
+                <img src="/images/popular_article.png" alt="">
             </article>
             <article class="popular_article">
                 <h3><a href="#">Название стать</a></h3>
-                <img src="/images/popular_article.jpg" alt="" width="304" height="176">
+                <img src="/images/popular_article.png" alt="">
             </article>
             <article class="popular_article">
                 <h3><a href="#">Название стать</a></h3>
-                <img src="/images/popular_article.jpg" alt="" width="304" height="176">
+                <img src="/images/popular_article.png" alt="">
             </article>
         </div>
         <!-- popular_article_wrapper -->

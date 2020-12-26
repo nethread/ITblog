@@ -29,7 +29,7 @@
         <div class="articles_wrapper">
             <article class="preview_article">
                 <h3 class="title_of_article">Название стать</h3>
-                <img  class="preview_image" src="/images/preview_image.jpg" alt="" width="450" height="300">
+                <img  class="preview_image" src="/images/preview_image.jpg" alt="">
                 <div class="preview_content">
                     Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я.
                 </div>
@@ -42,7 +42,7 @@
             <!-- preview_article -->
             <article class="preview_article">
                 <h3 class="title_of_article">Название стать</h3>
-                <img  class="preview_image" src="/images/preview_image.jpg" alt="" width="450" height="300">
+                <img  class="preview_image" src="/images/preview_image.jpg" alt="">
                 <div class="preview_content">
                     Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я.
                 </div>
